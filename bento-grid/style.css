@@ -15,6 +15,7 @@
 }
 
 :root {
+    --light-gray: hsl(0, 0%, 96%);
     --purple-sm: hsl(254, 88%, 90%);
     --purple-m: hsl(256, 67%, 59%);
     --yellow-sm: hsl(31, 66%, 93%);
@@ -24,6 +25,7 @@
 }
 
 body {
+    background-color: var(--light-gray);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +34,6 @@ body {
 }
 
 main {
-    background-color: var(--white);
     width: min(100%, 1200px);
     height: auto;
     display: flex;
