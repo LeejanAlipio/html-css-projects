@@ -28,6 +28,16 @@
     --space-3: 1.5rem;
     --space-4: 2rem;
     --space-5: 2.5rem;
+
+    --text-sm: 1rem;
+    --text-xsm: 1.3rem;
+    --text-m: 1.5rem;
+    --text-l: 2rem;
+    --text-xl: 2.5rem;
+    --text-2xl: 2.8rem;
+
+    --line-height: 1;
+    --letter-spacing: -1px;
 }
 
 body {
@@ -37,7 +47,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100dvh;
-    padding: var(--space-2);
+    padding: var(--space-4) var(--space-2);
 }
 
 .bento-grid {
@@ -46,4 +56,177 @@ body {
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
+}
+
+.card {
+    border-radius: 12px;
+}
+
+.social-media {
+    padding: var(--space-5);
+    color: var(--white);
+    background-color: var(--purple-m);
+    text-align: center;
+}
+
+.social-media h2 span {
+    color: var(--yellow-m);
+}
+
+.social-media-title {
+    line-height: var(--line-height);
+    font-size: var(--text-2xl);
+    font-weight: 300;
+    margin-bottom: var(--space-3);
+}
+
+.social-media-img {
+    width: min(100%, 150px);
+    display: block;
+    margin: 0 auto var(--space-1);
+}
+
+.multiple-accounts {
+    background-color: var(--white);
+    padding: var(--space-2);
+    color: var(--black);
+}
+
+.multiple-accounts-img {
+    width: min(100%, 350px);
+    display: block;
+    margin: 0 auto var(--space-2);
+}
+
+.multiple-accounts-title {
+    font-weight: 550;
+    font-size: var(--text-m);
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+}
+
+.posting-schedule {
+    background-color: var(--yellow-m);
+    padding: var(--space-2) var(--space-2) 0 var(--space-2);
+}
+
+.posting-schedule-title {
+    color: var(--black);
+    font-size: var(--text-m);
+    font-weight: 550;
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+    margin-bottom: var(--space-1);
+}
+
+.posting-schedule-img {
+    width: min(100%, 150px);
+    display: block;
+}
+
+.schedule-socmed {
+    text-align: center;
+    background-color: var(--purple-sm);
+    padding: var(--space-3) var(--space-2);
+}
+
+.schedule-socmed-title {
+    color: var(--black);
+    font-size: var(--text-m);
+    font-weight: 550;
+    letter-spacing: var(--letter-spacing);
+    margin-bottom: var(--space-3);
+}
+
+.schedule-socmed-img {
+    width: min(100%, 350px);
+    display: block;
+    margin-bottom: var(--space-2);
+}
+
+.schedule-socmed-description {
+    width: 250px;
+    margin: 0 auto;
+    line-height: var(--line-height);
+}
+
+.grow-followers {
+    color: var(--white);
+    background-color: var(--purple-m);
+    padding: var(--space-2);
+    text-align: center;
+}
+
+.grow-followers-img {
+    width: min(100%, 200px);
+    display: block;
+    margin: 0 auto var(--space-3);
+}
+
+.grow-followers-title {
+    width: 200px;
+    margin: 0 auto;
+    font-size: var(--text-m);
+    font-weight: 550;
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+}
+
+.audience-growth {
+    color: var(--black);
+    background-color: var(--white);
+    padding: var(--space-2);
+}
+
+.audience-growth-title {
+    font-size: var(--text-xl);
+    font-weight: 550;
+}
+
+.audience-growth-description {
+    margin-bottom: var(--space-2);
+}
+
+.audience-growth-img {
+    width: min(100%, 150px);
+}
+
+.create-schedule {
+    color: var(--black);
+    background-color: var(--yellow-sm);
+    padding: var(--space-3);
+}
+
+.create-schedule-title {
+    font-size: var(--text-m);
+    font-weight: 550;
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+    margin-bottom: var(--space-3);
+}
+
+.create-schedule-title em {
+    color: var(--purple-m);
+}
+
+.create-schedule-img {
+    width: min(100%, 150px);
+}
+
+.write-ai {
+    color: var(--black);
+    background-color: var(--yellow-m);
+    padding: var(--space-2);
+}
+
+.write-ai-title {
+    font-size: var(--text-m);
+    font-weight: 550;
+    line-height: var(--line-height);
+    letter-spacing: var(--letter-spacing);
+    margin-bottom: var(--space-2);
+}
+
+.write-ai-img {
+    width: min(100%, 200px);
 }
