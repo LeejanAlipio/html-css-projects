@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'DM-Sans';
+    src: url(bento-grid-assets/bento-grid-main/assets/fonts/DMSans-VariableFont_opsz\,wght.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --purple-sm: hsl(254, 88%, 90%);
+    --purple-m: hsl(256, 67%, 59%);
+    --yellow-sm: hsl(31, 66%, 93%);
+    --yellow-m: hsl(39, 100%, 71%);
+    --white: white;
+    --black: black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    padding: 1rem;
+}
+
+main {
+    background-color: var(--white);
+    width: min(100%, 1200px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
