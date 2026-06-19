@@ -26,10 +26,10 @@ Users should be able to:
 
 ### Screenshot
 Desktop View
-![Desktop View](/bento-grid/desktop.png)
+![Desktop View](/exercises/bento-grid/desktop.png)
 
 Mobile View
-![Mobile View](/bento-grid/mobile.png)
+![Mobile View](/exercises/bento-grid/mobile.png)
 
 ### Links
 
